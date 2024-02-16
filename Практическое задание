@@ -1,0 +1,36 @@
+# Практическое задание B
+time = int(input('Введите время(часы):'))
+if time <0 or time > 23:
+    print('Ошибка:Некорректное время')
+elif time < 6:
+    print('Сейчас ночь')
+elif time < 12:
+    print('Сейчас утро')
+elif time < 18:
+    print('Сейчас день')
+else:
+    print('Сейчас вечер')
+#Практическое здание A
+first_variable = 100
+second_variable = 5
+if first_variable > second_variable:
+    third_variable = first_variable - second_variable
+elif first_variable < second_variable:
+    third_variable = first_variable + second_variable
+else:
+    third_variable = first_variable
+print('Значение третьей переменной:',third_variable)
+
+
+
+    
+
+
+
+    
+    
+
+    
+
+
+
